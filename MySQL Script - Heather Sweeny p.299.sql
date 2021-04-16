@@ -68,3 +68,10 @@ WHERE CustomerID = (SELECT CustomerID
 SELECT CustomerID
 FROM CUSTOMER
 WHERE FirstName = 'Chris' AND LastName = 'Diaz'
+
+#Delete Customer
+DELETE FROM CUSTOMER
+WHERE CustomerID = 13;
+
+SELECT *
+FROM Customer;
